@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- haetaan javascript-tiedosto HTML:n käyttöön -->
+    <script src="muistipeli.js" charset="utf-8"></script>
+    <!-- Linkitetään myös CSS-tiedosto HTML:n käyttöön -->
+    <link rel="stylesheet" href="muistipeli.css">
+    <title>Muistipeli</title>
+    <select class="" id="koko">
+      <option value="8">4x4</option>
+      <option value="12">6x4</option>
+      <option value="18">6x6</option>
+    </select>
+  </head>
+  <!-- Ladataan peli näkyville -->
+  <body onload="luoTaulukko()">
+    <!-- Luodaan peliä varten paikka -->
+    <div id="pelialue">
+    </div>
+  </body>
+</html>
